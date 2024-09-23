@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
 ---
+# Lista de Requisitos
 
-# Problemática
+## Problemática
 
 Hoje possuímos diversas ferramentas para gerenciamento de desenvolvimento, cada uma com sua peculiaridade e suas integrações, porém nenhuma tão completa e intuitiva, o principal problema são as integrações muito difíceis de se fazer, com isso o pensamento é desenvolver uma ferramneta que simplifique a forma de integração e unifique as diversas ferramentas que as equipes de desenvolvimento usam atualmente.
 
