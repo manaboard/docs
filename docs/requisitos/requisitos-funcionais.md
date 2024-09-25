@@ -63,7 +63,7 @@ Hoje possuímos diversas ferramentas para gerenciamento de desenvolvimento, cada
 
 - `RNF001` O sistema deve ter acesso a internet.
 
-- `RNF002` O sistema deve rodar me multiplataformas, sendo elas
+- `RNF002` O sistema deve rodar em multiplataformas, sendo elas
   - android
   - ios
   - web
