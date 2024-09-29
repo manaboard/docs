@@ -12,7 +12,6 @@ Hoje possuímos diversas ferramentas para gerenciamento de desenvolvimento, cada
 - `RF001` Login no sistema: O usuário deve realizar o login fornecendo:
   - e-mail;
   - nome de usuário;
-  - número de telefone;
   - senha de acesso.
 
 - `RF002` Criar usuário: Para entrar no sistema o usuário deve fornecer:
@@ -21,7 +20,7 @@ Hoje possuímos diversas ferramentas para gerenciamento de desenvolvimento, cada
   - e-mail;
   - confirmação de email;
   - nome de usuário;
-  - número de telefone;
+  - número de telefone (opcional);
   - senha;
   - confirmação de senha.
 
