@@ -12,18 +12,20 @@ jobs:
     name: Build Docusaurus
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: yarn
+          bun-version: latest
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      - name: Build website
-        run: yarn build
+        run: bun install
+
+      - name: Build
+        run: bun build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
@@ -41,7 +43,7 @@ jobs:
 
     # Deploy to the github-pages environment
     environment:
-      name: github-pages
+      name: teste
       url: ${{ steps.deployment.outputs.page_url }}
 
     runs-on: ubuntu-latest
