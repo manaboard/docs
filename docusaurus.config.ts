@@ -20,7 +20,7 @@ const config: Config = {
   trailingSlash: false,
   //deploymentBranch: 'teste',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -28,7 +28,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['pt-BR'],
+    locales: ['en'],
   },
 
   markdown: {
